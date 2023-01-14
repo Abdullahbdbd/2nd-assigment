@@ -3,20 +3,21 @@
    margin: 0;
    padding: 0;
 }
-body{
-    background-color: rgba(255, 144, 14, 0.1);
-    height: 100vh;
-}
-    /*------------
-     nav section
+
+/*------------
+     banner section
      -----------*/
 
+
+.banner-items{
+    background-color: rgba(255, 144, 14, 0.1); 
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 70%;
-    margin: 50px auto;
+    margin: 0px auto;
     
 } 
 nav > ul{
@@ -25,19 +26,18 @@ nav > ul{
     gap: 70px;
     font-size: 18px;
     font-weight: 500;
+    margin-top: 50px;
 }
 nav > h1{
     font-size: 35px;
     font-weight: bold;
+    margin-top: 50px;
 }
-
-   /*------------
-    header section
-    -------------- */
 
 
 .header{
     text-align: center ;
+    margin-top: 116px;
     
 }
 div > h1{
@@ -60,4 +60,42 @@ div > button{
    margin-top: 46px; 
    width: 80%;
    margin-bottom: 49px;
+}
+
+   /*--------------
+    img-container 
+    ---------------*/
+
+
+.img-items > img{
+    width: 200px;
+}
+.img-container{
+   display: grid; 
+   grid-template-columns: repeat(3, 1fr);
+   margin-top: 85px;
+   margin-left: 250px;
+}
+.img-title{
+    margin-top: 100px;
+    margin-left: 76px;
+}
+.img-title > h2{
+    margin-bottom: 14px;
+}
+.img-title > p{
+    font-weight: 200;
+}
+.span-1st{
+    color: rgba(114, 114, 114, 1);
+    font-weight: 400;
+    font-size: 45px;
+}
+.span-2nd{
+    font-weight: 900;
+    font-size: 45px
+}
+.span-3rd{
+    font-size: 45px;
+    color: rgba(255, 144, 14, 1);
 }
